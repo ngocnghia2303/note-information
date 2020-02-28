@@ -1,1 +1,18 @@
 Demo nè!
+1. Để xóa & move các thể loại file - folder bằng cmd ROBOCOPY
+    - Tìm hiểu về robocopy
+        https://en.wikipedia.org/wiki/Robocopy
+    - systax robocopy
+        https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
+    - Download Robocopy help
+        http://www.upway2late.com/#/projects/winrobocopy
+
+2. Hỗ trợ từ xa với Mobaxterm 
+    - Cung cấp công cụ hỗ trợ từ xa như : SSH, X11, RDP, VNC, FTP, MOSH, ...
+    - link follow:
+        https://mobaxterm.mobatek.net/
+        Download: https://mobaxterm.mobatek.net/download.html
+
+3. Quản lý hệ thống camera với NX Witnex
+    - Networt Optix
+    
