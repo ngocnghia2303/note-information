@@ -7,6 +7,21 @@ Demo nè!
     - Download Robocopy help
         http://www.upway2late.com/#/projects/winrobocopy
 
+    - Một số lệnh hay dùng
+        + Xóa toàn bộ file trong thư mục
+        ==>rmdir /s /q "E:\Imported\EMS\HaiPhong\Imported"
+
+        + Move toàn bộ file từ folder MT_Data to MT_Data2
+        ==>robocopy E:\MT_Data1 E:\MT_Data2 /E /MIR /MOV /Z
+
+        + Move toàn bộ file từ folder MT_Data to MT_Data2 với 10file/lần
+        robocopy E:\MT_Data1 E:\MT_Data2 /E /MIR /MOV /Z /MT:10
+
+        + Move toàn bộ file từ folder MT_Data to MT_Data2 với 10file/lần nhưng bỏ qua file mới
+        ==>robocopy E:\MT_Data E:\MT_Data7 /E /MIR /MOV /Z /MT:10 /XN
+
+        for /r "E:\demo\XMHL\"   in (*) do move "E:\demo"
+
 2. Hỗ trợ từ xa với Mobaxterm 
     - Cung cấp công cụ hỗ trợ từ xa như : SSH, X11, RDP, VNC, FTP, MOSH, ...
     - link follow:
